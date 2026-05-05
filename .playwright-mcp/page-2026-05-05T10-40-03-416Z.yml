@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e3]:
+      - link "DevFlow Logo DevFlow" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "DevFlow Logo" [ref=e5]
+        - paragraph [ref=e6]: DevFlow
+      - paragraph [ref=e7]: Global Search
+      - button "Toggle theme" [ref=e9] [cursor=pointer]:
+        - img
+        - img
+        - generic [ref=e10]: Toggle theme
+    - heading "Welcome to the world of Next.js" [level=1] [ref=e11]
+  - generic:
+    - generic [ref=e14] [cursor=pointer]:
+      - img [ref=e15]
+      - generic [ref=e17]: 2 errors
+      - button "Hide Errors" [ref=e18]:
+        - img [ref=e19]
+    - status [ref=e22]:
+      - generic [ref=e23]:
+        - img [ref=e25]
+        - generic [ref=e27]:
+          - text: Static route
+          - button "Hide static indicator" [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+  - alert [ref=e32]

@@ -1,0 +1,117 @@
+[     286ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:13917
+[     407ms] [ERROR] In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <Router actionQueue={{state:{...}, ...}} assetPrefix="">
+      <HistoryUpdater>
+      <RuntimeStyles>
+      <HotReload assetPrefix="">
+        <ReactDevOverlay onReactError={function} state={{nextId:1, ...}} dispatcher={{...}}>
+          <DevRootNotFoundBoundary>
+            <NotFoundBoundary notFound={<NotAllowedRootNotFoundError>}>
+              <NotFoundErrorBoundary pathname="/" notFound={<NotAllowedRootNotFoundError>} notFoundStyles={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <Head>
+                    <link>
+                    <script>
+                    <script>
+                    <script>
+                    <RootLayout>
+>                     <html lang="en" suppressHydrationWarning={true}>
+                        <body>
+                        ...
+                          <_c>
+                            <ToastViewport ref={null} className="fixed top-...">
+                              <DismissableLayerBranch ref={{current:null}} role="region" aria-label="Notificati..." ...>
+                                <Primitive.div role="region" aria-label="Notificati..." tabIndex={-1} style={{...}} ...>
+>                                 <div
+>                                   role="region"
+>                                   aria-label="Notifications (F8)"
+>                                   tabIndex={-1}
+>                                   style={{pointerEvents:"none"}}
+>                                   ref={function}
+>                                 >
+                    ...
+          ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_23b1be._.js:894
+[     471ms] Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+    at throwOnHydrationMismatch (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:2653:56)
+    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:5400:918)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:631:20)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7930:97)
+    at workLoopConcurrent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7926:58)
+    at renderRootConcurrent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7908:71)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7547:139)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:8379:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_107ce8._.js:2352:64)
+[    8927ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_23b1be._.js:12000
+[    9030ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:13917
+[    9066ms] [ERROR] In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <Router actionQueue={{state:{...}, ...}} assetPrefix="">
+      <HistoryUpdater>
+      <RuntimeStyles>
+      <HotReload assetPrefix="">
+        <ReactDevOverlay onReactError={function} state={{nextId:1, ...}} dispatcher={{...}}>
+          <DevRootNotFoundBoundary>
+            <NotFoundBoundary notFound={<NotAllowedRootNotFoundError>}>
+              <NotFoundErrorBoundary pathname="/" notFound={<NotAllowedRootNotFoundError>} notFoundStyles={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <Head>
+                    <link>
+                    <script>
+                    <script>
+                    <script>
+                    <RootLayout>
+>                     <html lang="en" suppressHydrationWarning={true}>
+                        <body>
+                        ...
+                          <_c>
+                            <ToastViewport ref={null} className="fixed top-...">
+                              <DismissableLayerBranch ref={{current:null}} role="region" aria-label="Notificati..." ...>
+                                <Primitive.div role="region" aria-label="Notificati..." tabIndex={-1} style={{...}} ...>
+>                                 <div
+>                                   role="region"
+>                                   aria-label="Notifications (F8)"
+>                                   tabIndex={-1}
+>                                   style={{pointerEvents:"none"}}
+>                                   ref={function}
+>                                 >
+                    ...
+          ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_23b1be._.js:894
+[    9119ms] Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+    at throwOnHydrationMismatch (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:2653:56)
+    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:5400:918)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:631:20)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7930:97)
+    at workLoopConcurrent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7926:58)
+    at renderRootConcurrent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7908:71)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:7547:139)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js:8379:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_107ce8._.js:2352:64)

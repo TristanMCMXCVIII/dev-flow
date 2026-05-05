@@ -1,0 +1,19 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - heading "Join DevFlow" [level=1] [ref=e6]
+          - paragraph [ref=e7]: To get your questions answered
+        - img "DevFlow Logo" [ref=e8]
+      - generic [ref=e9]: SignIn
+      - generic [ref=e10]:
+        - button "Github Logo Log in with GitHub" [active] [ref=e11] [cursor=pointer]:
+          - img "Github Logo" [ref=e12]
+          - generic [ref=e13]: Log in with GitHub
+        - button "Google Logo Log in with Google" [ref=e14] [cursor=pointer]:
+          - img "Google Logo" [ref=e15]
+          - generic [ref=e16]: Log in with Google
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e17]
